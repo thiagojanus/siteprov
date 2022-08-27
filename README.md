@@ -1,2 +1,2 @@
 # site NBA 
-file:///C:/Users/jessi/OneDrive/Documentos/siteprov/index.html
+https://github.com/zezindococo/siteprov.git
