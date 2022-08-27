@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Share_Tech_Mono';
+  src: url(../fonts/ShareTechMono-Regular.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: 	#708090;
+    background-attachment: fixed;
+    padding: 1%;
+    
+}
+
+.menu, footer{
+    background-color: #B0C4DE;
+    padding: 2%;
+}
+
+.itens_menu{
+    padding-top: 1%;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.itens_menu a:visited, .itens_menu a:link{
+    color: #191970;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.itens_menu a:active{
+    color: black;
+}
+
+.itens_menu a:hover{
+    background-color: rgba(169, 169, 169, 0.3);
+    padding: 0.5%;
+}
+
+li{
+    display: inline;
+    padding: 1%;
+}
+
+ul{
+    background-color: dimgrey;
+}
+
+h1{
+    font-size: 1.7em;
+    color: crimson;
+}
+
+h2{
+    font-size: 1.5em;
+    color: 	#363636;
+    
+}
+
+p{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    letter-spacing: 2px;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 2%;
+    font-family: 'Orbitron', sans-serif,cursive;
+    
+}
+
+h1,h2{
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 2%;
+    font-weight: bolder;
+
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+figure{
+    text-align: center;
+}
+
+.img_topo{
+    width: 37%;
+}
+
+.img_corpo{
+    width: 60%;
+}
+
+.img_corpo2{
+    width: 35%;
+    border-style: groove;
+}
+
+footer{
+    background-color: rgba(28, 28, 28, 0.3);
+    padding: 2%;
+    margin-top: 2%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+
+section{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+a:visited{
+    background-color: transparent;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: underline
+}
+
+a:active{
+    color: honeydew;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:link{
+    color: darkgoldenrod;
+   
+}
+
+.esquerda{
+    width: 20%;
+    float: left;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  
+  
+}
+
+.esquerda2{
+    width: 100%;
+    padding: 0.5%;
+}
+
+.direita{
+    width: 20%;
+    float: right;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
