@@ -1,2 +1,2 @@
 # site NBA
-https://github.io/siteprov/zezindococo/
+https://github.com/zezindococo/siteprov.
