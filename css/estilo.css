@@ -54,11 +54,13 @@ ul{
 h1{
     font-size: 1.7em;
     color: crimson;
+    font-family: 'Orbitron', sans-serif,cursive;
 }
 
 h2{
     font-size: 1.5em;
-    color: 	#363636;
+    color: mediumblue;
+    font-family: 'Orbitron', sans-serif,cursive;
     
 }
 
@@ -95,6 +97,18 @@ figure{
     text-align: center;
 }
 
+.img_logos3{
+    width: 19%;
+}
+
+.img_logos2{
+    width: 13%;
+}
+
+.img_logos{
+    width: 25%;
+}
+
 .img_topo{
     width: 37%;
 }
@@ -119,7 +133,7 @@ footer{
 
 footer p{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 0.8em;
 }
 
 
@@ -156,12 +170,10 @@ a:link{
     width: 20%;
     float: left;
   margin-right: 2%;
-  margin-top: 2%;
+  margin-top: 1%;
   margin-bottom: 2%;
   
-  
 }
-
 .esquerda2{
     width: 100%;
     padding: 0.5%;
@@ -174,5 +186,51 @@ a:link{
   margin-top: 2%;
   margin-bottom: 2%;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+  }
+  
+  table, th, td {
+    border: 7px solid black;
+    border-radius: 10px;
+  }
+  
+  td,th{
+    
+    padding: 1%;
+    font-family: 'Orbitron', sans-serif,cursive;
+    border: 7px inset black;
+    border-radius: 10px;
+    
+  }
+  
+  td{
+    font-size: 1.5em;
+   padding: 0.5%;
+   text-align: center;
+  }
+  
+  th{
+    font-size: 1.5em;
+  }
+  
+  td:first-child{
+    width: 40%;
+  }
+  
+  td:first-child + td{
+    width: 60%;
+  }
+
+  tr:hover {background-color: rgba(109, 146, 214, 0.966);}
+
+  th {
+    background-color: #e00000;
+    color: white;
+  }
+
 
 
